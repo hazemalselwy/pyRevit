@@ -1,6 +1,8 @@
 4.5rc:
-☐ finish the flask app implementation
-☐ add flask app config to settings
+☐ postern parameter in url
+☐ postern check for single server
+☐ postern other http methods
+☐ postern add config to settings
 ☐ add date to log file names
 ☐ Test dynamo compat mode in %programdata%
 ☐ review the extension hash system
