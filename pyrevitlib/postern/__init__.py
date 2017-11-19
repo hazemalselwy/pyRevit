@@ -22,7 +22,7 @@ class Postern(object):
             return f
         return decorator
 
-    def run(self):
+    def run(self, ip='', port=48884):
         # FIXME: Make sure only a single server is running
-        appserver = server.PosternServer()
+        appserver = server.PosternServer(self.appname, ip, port)
         appserver.start()
