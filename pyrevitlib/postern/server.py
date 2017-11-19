@@ -88,7 +88,7 @@ class ThreadedHttpServer(ThreadingMixIn, HTTPServer):
 
 
 class PosternServer():
-    def __init__(self, name=None, ip='', port=48889):
+    def __init__(self, name=None, ip='0.0.0.0', port=48884):
         self.server = ThreadedHttpServer((ip, port), HttpRequestHandler)
         self.start()
 
